@@ -47,7 +47,8 @@ int pot(double num1, double num2)
 
 int main()
 {
-	int opc, num1, num2;
+	int opc;
+	double num1, num2;
 
 	printf("Digite:\n");
 	printf("1 – para adição (x+y)\n");
@@ -55,6 +56,11 @@ int main()
 	printf("3 – para divisão (x/y)\n");
 	printf("4 – para multiplicação (x*y)\n");
 	printf("5 – para potência (x^y)\n");
+	scanf("%d", &opc);
+	
+	switch(opc){
+		case 1:
+		soma(num1,num2)
 
 
 
